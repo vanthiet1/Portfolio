@@ -7,6 +7,8 @@ import BookStore from '../../Assets/Projects/book-store.png'
 import TrailerMovie from '../../Assets/Projects/trailer-movie.png'
 import ConnectChat from '../../Assets/Projects/Connect-chat.png'
 import Quanli from '../../Assets/Projects/quanli.png'
+import BinhAnDuoc from '../../Assets/Projects/binhanduoc.png'
+
 
 
 
@@ -32,7 +34,16 @@ function Projects() {
               demoLink="https://book-store-mu-six.vercel.app/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BinhAnDuoc}
+              isBlog={false}
+              title="Pharmacy Management"
+              description="💞️ Tech React - NodeJs - Tailwind - cloudinary Management - Casso - Socket.io - MongoDB ( Mern Stack )"
+              ghLink="https://github.com/vanthiet1/DATN-QuanLiNhaThuoc"
+             demoLink="https://datn-quan-li-nha-thuoc.vercel.app"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={TrailerMovie}
